@@ -21,7 +21,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 
-@Preview(showBackground = true, showSystemUi = true)
 
 @Composable
 fun MenuScreen(
@@ -49,7 +48,7 @@ fun MenuScreen(
         ) {
 
             Button(
-                onClick = {navController.navigate("perfil")},
+                onClick = {navController.navigate("perfil/Maria/32")},
                 colors = ButtonDefaults.buttonColors(Color.White),
                 modifier = Modifier.size(
                     width = 200.dp,
@@ -64,7 +63,7 @@ fun MenuScreen(
             }
 
             Button(
-                onClick = {navController.navigate("pedidos")},
+                onClick = {navController.navigate("pedidos?numeroPedido=1234")},
                 colors = ButtonDefaults.buttonColors(Color.White),
                 modifier = Modifier.size(
                     width = 200.dp,

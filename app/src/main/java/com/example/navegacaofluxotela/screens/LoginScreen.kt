@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 
-@Preview(showBackground = true, showSystemUi = true)
+
 
 @Composable
 fun LoginScreen(
